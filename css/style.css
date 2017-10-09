@@ -1,0 +1,99 @@
+
+footer, nav{
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+p{
+  font-size: 2rem;
+}
+
+.mainImg{
+  width: 100%;
+}
+
+li{
+  margin-bottom: 2%;
+}
+
+.below{
+  margin-top: 4%;
+}
+
+.leftBottom{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.login{
+  color: #2968a4;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+.applied{
+  margin-top: 20%;
+  text-align: center;
+}
+
+form legend{
+  color: #2968a4;
+}
+
+.btn{
+  color: white;
+  background-color: #2968a4;
+  width: 300px;
+}
+
+.put{
+  width: 300px;
+}
+
+footer{
+  text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+  footer, nav{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  nav img{
+    width: 50%;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+
+  .mainImg{
+    margin-bottom: 5%;
+  }
+  .applied{
+    margin-top: 0%;
+    text-align: left;
+
+  }
+
+  .login{
+    font-size: 1.5rem
+  }
+
+  form{
+    margin-top: 4%;
+  }
+
+  .btn{
+    width: 100%;
+  }
+
+  .put{
+    width: 100%;
+  }
+
+
+  footer img{
+    width: 50%;
+  }
+}

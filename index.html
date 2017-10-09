@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newcross</title>
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="container">
+
+
+    <header>
+      <nav>
+        <img  src="images/logo@2x.jpg" alt="">
+      </nav>
+    </header>
+
+    <main>
+      <div class="row">
+
+        <div class="col-xs-12 col-md-6">
+          <img  class="mainImg" src="images/header-img@2x.jpg" alt="">
+        </div>
+        <div class="col-xs-12 col-md-6">
+
+          <p>Thanks for your interest in the role</p>
+          <p><strong>Healthcare Worker -working from Maidstone Branch</strong></p>
+
+          <p>To complete this application you will need to provide the following information:</p>
+          <ul>
+            <li><img src="images/icon-tick.svg" alt=""><strong> Identification documents</strong></li>
+            <li><img src="images/icon-tick.svg" alt=""><strong> Right to Work documents</strong></li>
+            <li><img src="images/icon-tick.svg" alt=""><strong> Previous Employment History</strong></li>
+            <li><img src="images/icon-tick.svg" alt=""><strong> References contact details</strong></li>
+          </ul>
+
+
+        </div>
+      </div>
+
+      <div class="row below">
+        <div class="col-xs-12 col-md-6">
+          <div class="applied">
+
+            <p>Applied for a role with Newcross before?</p>
+            <a class="login" href="#">Login with your email & password</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+
+          <form name="registerForm" class="" action="index.html" method="post">
+            <legend>Register</legend>
+            <div class="form-group">
+              <label for="email">Email:*</label><br>
+              <input class="put" type="email" name="email" value="" required>
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password:*</label><br>
+              <input class="put" type="password" name="password" value="" required minlength="7">
+            </div>
+            <div class="form-group">
+              <label for="passwordConfirmation">Confirm password*</label><br>
+              <input class="put" type="password" name="passwordConfirmation" value="" required  >
+            </div>
+            <div class="form-group">
+              <input  type="checkbox" name="rightToWork" value="">
+              <label for="rightToWork">I have the right to work in the UK</label>
+            </div>
+            <div class="form-group">
+              <input class="btn" type="submit" name="submit" value="Register">
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+
+    </main>
+    <footer>
+      <img src="images/logo@2x.jpg" alt="">
+    </footer>
+  </div>
+</body>
+</html>
