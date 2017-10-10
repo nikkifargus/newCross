@@ -3,6 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Newcross</title>
+  <script src="app.js" charset="utf-8"></script>
   <link rel="stylesheet" type="text/css" href="./css/reset.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <script
@@ -63,12 +64,15 @@
             <legend>Register</legend>
             <div class="form-group">
               <label for="email">Email:*</label><br>
-              <input class="put" type="email" name="email" value="" required>
+              <input class="put" type="email" name="email" value="" id="inp1" required>
+              <div id="emailError"></div>
             </div>
 
             <div class="form-group">
               <label for="password">Password:*</label><br>
-              <input class="put" type="password" name="password" value="" required minlength="7">
+              <input class="put" type="password" name="password" value="" id="inp2" required>
+              <div id="passwordError"  ></div>
+
             </div>
             <div class="form-group">
               <label for="passwordConfirmation">Confirm password*</label><br>
@@ -79,7 +83,7 @@
               <label for="rightToWork">I have the right to work in the UK</label>
             </div>
             <div class="form-group">
-              <input class="btn" type="submit" name="submit" value="Register">
+              <input onclick="checkValid()" class="btn" type="submit" name="submit" value="Register">
             </div>
           </form>
         </div>
