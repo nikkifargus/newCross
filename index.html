@@ -60,23 +60,22 @@
         </div>
         <div class="col-xs-12 col-md-6">
 
-          <form name="registerForm" class="" action="index.html" method="post">
+          <form id="form" name="registerForm" class="" action="index.html" method="post">
             <legend>Register</legend>
             <div class="form-group">
               <label for="email">Email:*</label><br>
               <input class="put" type="email" name="email" value="" id="inp1" required>
-              <div id="emailError"></div>
+              <div class="error" id="emailError"></div>
             </div>
 
             <div class="form-group">
               <label for="password">Password:*</label><br>
-              <input class="put" type="password" name="password" value="" id="inp2" required>
-              <div id="passwordError"  ></div>
-
-            </div>
+              <input class="put" type="password" name="password" value="" id="inp2" required minlength="7">
+              <div class="error" id="passwordError"></div>
+              </div>
             <div class="form-group">
               <label for="passwordConfirmation">Confirm password*</label><br>
-              <input class="put" type="password" name="passwordConfirmation" value="" required  >
+              <input class="put" type="password" name="passwordConfirmation" value="" >
             </div>
             <div class="form-group">
               <input  type="checkbox" name="rightToWork" value="">

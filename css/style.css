@@ -49,6 +49,29 @@ form legend{
   width: 300px;
 }
 
+#emailError{
+  color: orange;
+}
+
+#passwordError{
+  color: #2968a4;
+}
+
+.error{
+  /*display: none;*/
+}
+.error_show{
+  color: red;
+}
+
+input.invalid, textarea.invalid{
+	border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+	border: 2px solid green;
+}
+
 footer{
   text-align: center;
 }
