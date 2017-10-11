@@ -60,21 +60,20 @@
         </div>
         <div class="col-xs-12 col-md-6">
 
-          <form name="registerForm" class="" action="index.html" method="post">
+          <form name="form" class="form" action="index.html" method="post">
             <legend>Register</legend>
             <div class="form-group">
               <label for="email">Email:*</label><br>
               <input class="put" type="email" name="email" value="" id="inp1" required>
-              <div class="emailError"></div>
               <div class="emailError"><div class="errorMessage"><img src="images/icon-error.svg"> Not a valid email address</div></div>
             </div>
 
             <div class="form-group">
               <label for="password">Password:*</label><br>
-              <input class="put" type="password" name="password" value="" id="inp2"  required minlength="7">
-              <div class="passwordError"></div>
+              <input class="put" type="password" name="password" value="" id="inp2" required minlength="7">
               <div class="passwordError">
               <div><img src="images/icon-info.svg"> Password must be at least 7 characters</div>
+            </div>
             </div>
             <div class="form-group">
               <label for="passwordConfirmation">Confirm password*</label><br>
@@ -93,8 +92,8 @@
 
 
 
-<button id="eg" type="button" name="button" onclick="append()">click</button>
-<div id="eg2"></div>
+<!-- <button id="eg" type="button" name="button" onclick="append()">click</button>
+<div id="eg2"></div> -->
 
 
     </main>
