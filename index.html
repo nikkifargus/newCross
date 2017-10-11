@@ -60,35 +60,41 @@
         </div>
         <div class="col-xs-12 col-md-6">
 
-          <form id="form" name="registerForm" class="" action="index.html" method="post">
+          <form name="registerForm" class="" action="index.html" method="post">
             <legend>Register</legend>
             <div class="form-group">
               <label for="email">Email:*</label><br>
               <input class="put" type="email" name="email" value="" id="inp1" required>
-              <div class="error" id="emailError"></div>
+              <div class="emailError"></div>
+              <div class="emailError"><div class="errorMessage"><img src="images/icon-error.svg"> Not a valid email address</div></div>
             </div>
 
             <div class="form-group">
               <label for="password">Password:*</label><br>
-              <input class="put" type="password" name="password" value="" id="inp2" required minlength="7">
-              <div class="error" id="passwordError"></div>
-              </div>
+              <input class="put" type="password" name="password" value="" id="inp2"  required minlength="7">
+              <div class="passwordError"></div>
+              <div class="passwordError">
+              <div><img src="images/icon-info.svg"> Password must be at least 7 characters</div>
+            </div>
             <div class="form-group">
               <label for="passwordConfirmation">Confirm password*</label><br>
-              <input class="put" type="password" name="passwordConfirmation" value="" >
+              <input class="put" type="password" name="passwordConfirmation" value=""  >
             </div>
             <div class="form-group">
               <input  type="checkbox" name="rightToWork" value="">
               <label for="rightToWork">I have the right to work in the UK</label>
             </div>
             <div class="form-group">
-              <input onclick="checkValid()" class="btn" type="submit" name="submit" value="Register">
+              <input class="btn" type="submit" name="submit" value="Register" onclick="checkValid()">
             </div>
           </form>
         </div>
       </div>
 
 
+
+<button id="eg" type="button" name="button" onclick="append()">click</button>
+<div id="eg2"></div>
 
 
     </main>

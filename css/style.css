@@ -49,12 +49,19 @@ form legend{
   width: 300px;
 }
 
-#emailError{
-  color: orange;
+.emailError{
+  color: red;
+  display: none;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-#passwordError{
+.passwordError{
   color: #2968a4;
+  display: none;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
 }
 
 .error{
